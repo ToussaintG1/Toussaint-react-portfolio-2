@@ -1,10 +1,21 @@
 // page for portfolio section
 import React from 'react';
+import image1 from '../assets/1.png';
+import image2 from '../assets/2.png';
+import image3 from '../assets/3.png';
+import image4 from '../assets/4.png';
+import image5 from '../assets/5.png';
+import image6 from '../assets/6.png';
 
 function Portfolio() {
   // Replace the sample data with your project information
   const projects = [
-    { title: 'Project 1', image: 'path/to/project1.jpg', demoLink: '#', repoLink: '#' },
+    { title: 'Advert Logix', image: image1, demoLink: '#advertlogix.com', repoLink: '#https://github.com/ToussaintG1/advert-logix-web' },
+    { title: 'Horizon Digital Marketing', image: image2, demoLink: '#', repoLink: '#' },
+    { title: 'Project 3', image: image3, demoLink: '#', repoLink: '#' },
+    { title: 'Project 4', image: image4, demoLink: '#', repoLink: '#' },
+    { title: 'Project 5', image: image5, demoLink: '#', repoLink: '#' },
+    { title: 'Project 6', image: image6, demoLink: '#', repoLink: '#' },
     // Add more projects as needed
   ];
 
