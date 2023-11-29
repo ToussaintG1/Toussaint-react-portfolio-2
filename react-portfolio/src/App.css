@@ -1,0 +1,4 @@
+/* This will import the tailwindcss files into the App.css file */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
