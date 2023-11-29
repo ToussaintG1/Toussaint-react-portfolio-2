@@ -10,12 +10,12 @@ import image6 from '../assets/6.png';
 function Portfolio() {
   // Replace the sample data with your project information
   const projects = [
-    { title: 'Advert Logix', image: image1, demoLink: '#advertlogix.com', repoLink: '#https://github.com/ToussaintG1/advert-logix-web' },
-    { title: 'Horizon Digital Marketing', image: image2, demoLink: '#', repoLink: '#' },
-    { title: 'Project 3', image: image3, demoLink: '#', repoLink: '#' },
-    { title: 'Project 4', image: image4, demoLink: '#', repoLink: '#' },
-    { title: 'Project 5', image: image5, demoLink: '#', repoLink: '#' },
-    { title: 'Project 6', image: image6, demoLink: '#', repoLink: '#' },
+    { title: 'Advert Logix', image: image1, demoLink: 'advertlogix.com', repoLink: 'https://github.com/ToussaintG1/advert-logix-web' },
+    { title: 'Horizon Digital Marketing', image: image2, demoLink: '#', repoLink: 'https://github.com/ToussaintG1/Horiseon-Digital-Marketing-' },
+    { title: 'JavaScript Coding Quiz', image: image3, demoLink: 'https://toussaintg1.github.io/quiz-game/', repoLink: 'https://github.com/ToussaintG1/quiz-game' },
+    { title: 'BetterMeals Company', image: image4, demoLink: '', repoLink: 'https://github.com/ToussaintG1/better-meals' },
+    { title: 'Express.JS Note Taker', image: image5, demoLink: '#', repoLink: 'https://github.com/ToussaintG1/note-taker' },
+    { title: 'Space Invaders', image: image6, demoLink: '#', repoLink: 'https://github.com/ToussaintG1/space-invaders' },
     // Add more projects as needed
   ];
 
